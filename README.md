@@ -7,7 +7,7 @@ The robot friend who follows and interacts with a cute emotion.
 Right now, the project is the prototype simulate some of the features that could have in the robot.   
 
 ## What does the program do?
-Program is to sense the human and interact by base on conditions.
+Program is to __sense the human and interact by base on conditions__.
 
 The file contains 2 devices program:
 - ESP32 (WROOM)
@@ -51,6 +51,28 @@ Raspberry Pi:
 | Speaker (Signal) | Aux Jack |
 
 ## Design
-The design is to mimic cat like but with creativity into it with CRT diplay head and hybrid with human look.
+The design is to __mimic cat like but with creativity__ into it with CRT diplay head and hybrid with human look.
 
 ![Design of the Robot](https://github.com/Bhumipat001/FIBO-Academy-2025/blob/main/img/Design%20of%20the%20Robot.png)
+
+__3D Design__(CAD): 
+- [STEP Assembly](https://github.com/Bhumipat001/FIBO-Academy-2025/tree/main/CAD/STEP)
+- [STL Files](https://github.com/Bhumipat001/FIBO-Academy-2025/tree/main/CAD/STL)
+
+Note: The design is made to __manufacture by 3D Printer__(FDM Printer)
+
+__Materials__:
+- Sensors
+    - `1` 24GHz mmWave Radar(Waveshare)
+    - `A little bit` Thin Metalic(Aluminum Tape)
+- `8` Servos
+- Compute Modules
+    - `1` ESP32 WROOM
+    - `1` Raspberry Pi 4 Model B
+- `1` Speaker (Support Size: 10 mm and 17 mm) and Amplifier
+- `1` Pi Camera with Fish Eye Lense(130 Degree)
+- `2` Light Strip with WS2812B
+- `1` 3.2" TFT Screen
+- `1` Vibrator Motor
+- `Some` Wires
+- `1` Power Supply, Switch, Connector and others
