@@ -76,3 +76,16 @@ __Materials__:
 - `1` Vibrator Motor
 - `Some` Wires
 - `1` Power Supply, Switch, Connector and others
+
+## Program Summery
+We use local __MQTT__ broker(In our case we use Moquito) for communication inside the Raspberry Pi and ESP32(via Middle program). 
+
+![Simplified Algorithm of Raspberry Pi](https://github.com/Bhumipat001/FIBO-Academy-2025/blob/main/img/Algorithm%20inside%20Raspberry%20Pi.png)
+
+![Simplified Algorithm of ESP32](https://github.com/Bhumipat001/FIBO-Academy-2025/blob/main/img/Algorithm%20inside%20ESP32.png)
+
+
+### Tracking Program
+![Algorithm of the Raspberry Pi](https://github.com/Bhumipat001/FIBO-Academy-2025/blob/main/img/Following%20Test.png)
+
+The repositorie provides object detection model optimized from YOLOv8n. The program goal is to move the focus object to the center of the setpoint(middle of the screen).
