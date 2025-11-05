@@ -122,3 +122,53 @@ This implementation tests the radar's ability to sense a hand in front of the ro
 - The radar is more effective at detecting moving objects but may produce noise if the sensor itself moves.
 
 For more details, refer to the [presentation slides](https://github.com/Bhumipat001/FIBO-Academy-2025/blob/main/Present%20Slide.pdf).
+
+---
+## Setup
+Follow these steps to set up the system. Note that this is a basic setup and may require adjustments.
+
+### Raspberry Pi Setup
+**Distro**: Raspberry Pi OS (default username: `pi`)
+
+1. **Update and Install Dependencies**  
+   - Update the system and install required libraries.  
+   - Enable SPI and UART pins via `raspi-config`.
+
+2. **Create a Python Virtual Environment**  
+   ```bash
+   cd ~
+   python3 -m venv RobotEnv
+   ```
+
+3. **Install Python Libraries**  
+   Activate the virtual environment and install the required libraries.
+
+4. **Clone the Raspberry Pi Code**  
+   ```bash
+   cd ~
+   git clone https://github.com/Bhumipat001/FIBO-Academy-2025.git
+   mv FIBO-Academy-2025/Desktop\ Friend\ Robot/Raspberry\ Pi\ 4/ ~/RobotFriend
+   rm -rf ~/FIBO-Academy-2025
+   ```
+
+5. **Create and Enable a Systemd Service Unit File**  
+   Set up a service to run the program automatically on boot.
+
+6. **Test and Run the Program**  
+   Start the program and ensure everything is working as expected.
+
+---
+
+### ESP32 Setup
+1. **Install Required Libraries**  
+   Install the necessary libraries in your Arduino IDE or other development environment.
+
+2. **Upload the Code**  
+   Flash the ESP32 with the provided code.
+
+3. **Test the Setup**  
+   Verify the ESP32 is communicating correctly with the Raspberry Pi.
+
+---
+
+**Note**: For both setups, patience and testing are key. Good luck! 🙏
