@@ -74,6 +74,7 @@ The robot is designed to **mimic a cat-like appearance** with creative elements,
 ## Materials
 ### Sensors
 - `1` 24GHz mmWave Radar (Waveshare)
+- `1` Pi Camera with Fish Eye Lens (130°)
 - `A small amount` of thin metallic material (e.g., aluminum tape)
 
 ### Actuators
@@ -86,9 +87,8 @@ The robot is designed to **mimic a cat-like appearance** with creative elements,
 - `1` Raspberry Pi 4 Model B
 
 ### Other Components
-- `1` Speaker (10 mm or 17 mm) with Amplifier
-- `1` Pi Camera with Fish Eye Lens (130°)
 - `1` 3.2" TFT Screen
+- `1` Speaker (10 mm or 17 mm) with Amplifier
 - `Some` wires, power supply, switches, connectors, etc.
 
 ---
