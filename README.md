@@ -80,12 +80,24 @@ __Materials__:
 ## Program Summery
 We use local __MQTT__ broker(In our case we use Moquito) for communication inside the Raspberry Pi and ESP32(via Middle program). 
 
+Here is the simple algorithm inside the program that running these boards.
+
 ![Simplified Algorithm of Raspberry Pi](https://github.com/Bhumipat001/FIBO-Academy-2025/blob/main/img/Algorithm%20inside%20Raspberry%20Pi.png)
 
 ![Simplified Algorithm of ESP32](https://github.com/Bhumipat001/FIBO-Academy-2025/blob/main/img/Algorithm%20inside%20ESP32.png)
 
 
 ### Tracking Program
-![Algorithm of the Raspberry Pi](https://github.com/Bhumipat001/FIBO-Academy-2025/blob/main/img/Following%20Test.png)
+![Algorithm of the Tracking Program](https://github.com/Bhumipat001/FIBO-Academy-2025/blob/main/img/Following%20Test.png)
 
 The repositorie provides object detection model optimized from YOLOv8n. The program goal is to move the focus object to the center of the setpoint(middle of the screen).
+
+### Radar Program
+![Algorithm of the Radar Program](https://github.com/Bhumipat001/FIBO-Academy-2025/blob/main/img/Radar%20Test.png)
+
+Note: 
+The algorithm could be improve in many ways. This is the imprement to test how useful the sensor could help in the robot.
+
+This imprementation is the test of using radar for sensing the hand in front of the face without touching the screen itself. The radar is using doppler effect to detect but the size and limitation the sensor could detect moving moving object far more better but that means if the sensor moving could cause the reading to be false or include the noise in the reading data.
+
+More detail: [Link](https://github.com/Bhumipat001/FIBO-Academy-2025/blob/main/Present%20Slide.pdf)
