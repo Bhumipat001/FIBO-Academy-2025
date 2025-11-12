@@ -171,4 +171,4 @@ Follow these steps to set up the system. Note that this is a basic setup and may
 
 ---
 
-**Note**: For both setups, patience and testing are key. Good luck! 🙏
+**Note**: For both setups, patience and testing are key. Good luck! Gooses and Cats bless you🙏
